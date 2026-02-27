@@ -1,4 +1,4 @@
-/** @type {import('./Certificate_Generator/node_modules/next').NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ['@napi-rs/canvas'],
